@@ -28,6 +28,9 @@ public class busqueda : MonoBehaviour
     public Dropdown DDintegrantes;
 
     public GameObject texto;
+    public GameObject textoF;
+
+    public GameObject btnRutacorta;
 
     private CGrafo mapita;
 
@@ -38,7 +41,9 @@ public class busqueda : MonoBehaviour
     string dato="";//captura el dato
     int prof = 50;//nivel de profundidad de busqueda
     int cont = 0;//contdor de profundidad
+
     List<int> rutaF = new List<int>();//Ruta final
+    List<int> rutaC = new List<int>();//Ruta final
     int[,] mapa = new int[32,32]
         {
       {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
@@ -82,11 +87,12 @@ public class busqueda : MonoBehaviour
         pereira,armenia,ibague,cali,neiva,popayan,florencia,mocoa,pasto,bogota,villavicencio, yopal, inirida, guaviare,mitu,leticia;
     public ciudad[] ciudades=new  ciudad[30];
     public string []integrantes= new string[4]{"Jessica Arias", "Karen Saavedra", "Diego Suarez", "Nicolas Torres"};
+    
     // Start is called before the first frame update
     void Start()
     {
         mapita=GetComponent<CGrafo>();
-
+        btnRutacorta.SetActive(false);
         //buscar ciudades G.O. y agruparlos
         ciudades[0].city="Seleccione...";
         ciudades[1].nombre=GameObject.Find("Riohacha");
@@ -309,6 +315,7 @@ public class busqueda : MonoBehaviour
                     }
                 }
             }
+            btnRutacorta.SetActive(true);
 
             pintar (rutaF);
     }
@@ -321,6 +328,91 @@ public class busqueda : MonoBehaviour
         final=ciudades[val].ID;
     }
 
+      public void RutaCorta()
+    {
+        
+        int[,] tabla = new int[cantNodos, 3];
+            /*Col   Ref
+             * 0    visitado? (0=no;1=si)
+             * 1    distancia entre nodos
+             * 2    Nodo padre
+             */
+            for(n=0;n<cantNodos;n++)
+            {
+                tabla[n, 0] = 0;    //no visitado
+                tabla[n, 1] = int.MaxValue;//Distancia
+                tabla[n, 2] = 0;//nodo padre
+
+            }
+            tabla[inicio, 1] = 0;
+            //MostrarTabla(tabla);
+
+            for(dist=0;dist<cantNodos;dist++)//para recorrer todos los nodos
+            {
+                for(n=0;n<cantNodos;n++)
+                {
+                    if((tabla[n,0]==0)&&(tabla[n,1]==dist))//no ha sido visitado / menor distancia
+                    {
+                        tabla[n, 0] = 1;// se visito!
+                        for(m=0;m<cantNodos;m++)//conexion con nodos
+                        {
+                            if(mapita.obtener(n,m)==1)//tiene conexion?
+                            {
+                                if(tabla[m,1]==int.MaxValue)
+                                {
+                                    tabla[m, 1] = dist + 1;//distancia "real"
+                                    tabla[m, 2] = n;//nodo padre
+                                }
+                            }
+                        }
+                    }
+                }
+                cont++;
+            }
+            Debug.Log("hecho");
+            //ruta final
+            List<int> ruta = new List<int>();
+            int nod = final;
+            if(cont>=prof)
+            {
+                Console.Write("No hay rutas disponibles para ese destino");
+
+            }
+            else
+            {
+                while (nod != inicio)
+                {
+                    ruta.Add(nod);
+                    nod = tabla[nod, 2];
+                }
+
+                ruta.Add(inicio);
+                ruta.Reverse();
+            }
+            rutaC=ruta;
+            textoF.GetComponent<Text>().text=""  ;
+           
+           int aux1=rutaC.Count;
+           int aux=0;
+            for(int i=0;i<cantNodos;i++)       
+            {
+             
+                if(ciudades[i].ID==rutaC[aux]&&aux<aux1)
+                {
+                    aux++;
+                    textoF.GetComponent<Text>().text+=aux+") "+ciudades[i].city.ToString()+"\n";                    
+                    i=0;
+                    if (aux==aux1)
+                    {
+                        break;
+                        
+                    }
+                }
+            }
+            
+            btnRutacorta.SetActive(false);
+            pintar (rutaC);
+    }
     public void llenarListas()
     {   
         
@@ -343,15 +435,35 @@ public class busqueda : MonoBehaviour
         cont=0;
         encontrado=false;
         visited = new bool[32];
+       // btnRutacorta.SetActive(false);
         if(rutaF.Count!=0)
         {
             REsetpintar(rutaF);
+        }
+        if(rutaC.Count!=0)
+        {
+            REsetpintar(rutaC);
         }
         List <int> resp= new List<int>();
         resp =Profundidad(inicio,final);
 
         DFS(resp);
         
+
+    }
+    public void calcularRC()
+    {
+
+        if(rutaF.Count!=0)
+        {
+            REsetpintar(rutaF);
+        }
+        if(rutaC.Count!=0)
+        {
+            REsetpintar(rutaC);
+        }
+
+        RutaCorta();
 
     }
 

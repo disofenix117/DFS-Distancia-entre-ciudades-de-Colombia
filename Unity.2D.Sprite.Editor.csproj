@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{43635edd-601b-6abe-8a7b-116ceb7bb804}</ProjectGuid>
+    <ProjectGuid>{a21e3e7d-67ba-d889-628e-536865537898}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.2D.Sprite.Editor</AssemblyName>
@@ -272,7 +272,7 @@
         <HintPath>F:/Programas/Unity/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad y distancia corta/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
         <HintPath>F:/Programas/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -629,19 +629,19 @@
         <HintPath>F:/Programas/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad y distancia corta/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad y distancia corta/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{b5d6cf57-e0e1-d327-489d-79d95f0abe2f}</Project>
+      <Project>{7c9072f6-9df4-7656-4141-557295099fc7}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{cc874493-699e-3586-711f-4436f585988f}</Project>
+      <Project>{6a74997d-5182-2324-553a-566993f187c0}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

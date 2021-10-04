@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{82d8bfbc-926a-d2e3-f696-361d33b6dfe4}</ProjectGuid>
+    <ProjectGuid>{bc341a0c-2f04-375f-b69a-853447f2eab2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -567,90 +567,90 @@
         <HintPath>F:/Programas/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad y distancia corta/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Runtime">
-        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
+        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad y distancia corta/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect.Editor">
-        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
+        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad y distancia corta/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad y distancia corta/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Editor">
-        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
+        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad y distancia corta/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad y distancia corta/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Path.Editor">
-        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
+        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad y distancia corta/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad y distancia corta/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Triangle.Runtime">
-        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
+        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad y distancia corta/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="PsdPlugin">
-        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
+        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad y distancia corta/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad y distancia corta/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad y distancia corta/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad y distancia corta/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Psdimporter.Editor">
-        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
+        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad y distancia corta/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.001">
-        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad y distancia corta/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Runtime">
-        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad y distancia corta/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
-        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
+        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad y distancia corta/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect">
-        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
+        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad y distancia corta/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Editor">
-        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad y distancia corta/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad y distancia corta/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad y distancia corta/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Editor">
-        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad y distancia corta/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridge.001">
-        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+        <HintPath>E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Distancia entre ciudades en Profundidad y distancia corta/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{cc874493-699e-3586-711f-4436f585988f}</Project>
+      <Project>{6a74997d-5182-2324-553a-566993f187c0}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
-      <Project>{43635edd-601b-6abe-8a7b-116ceb7bb804}</Project>
+      <Project>{a21e3e7d-67ba-d889-628e-536865537898}</Project>
       <Name>Unity.2D.Sprite.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Tilemap.Editor.csproj">
-      <Project>{2ed20119-1068-ff24-8c83-f5845fd65567}</Project>
+      <Project>{e6fdc091-f43f-4003-7d41-dcf5a8fbe35c}</Project>
       <Name>Unity.2D.Tilemap.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{b5d6cf57-e0e1-d327-489d-79d95f0abe2f}</Project>
+      <Project>{7c9072f6-9df4-7656-4141-557295099fc7}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
   </ItemGroup>

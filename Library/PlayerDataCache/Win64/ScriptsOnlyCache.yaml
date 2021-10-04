@@ -359,7 +359,7 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
-      Hash: 052509181c76f8ac4e3488c1afc3e95c
+      Hash: 86f23727ca8b3dbd407907648556d853
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: busqueda
@@ -606,4 +606,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: E:/Diego Suarez/U.M.N.G/inteligencia Artificial/Build 2/Rutas por Colombia.exe
+  playerPath: E:/Diego Suarez/U.M.N.G/inteligencia Artificial/build3/Rutas por Colombia.exe
